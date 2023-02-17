@@ -12,8 +12,8 @@ html, body {
 
 
 h4 {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 p {
@@ -50,6 +50,5 @@ p {
 }
 
 @media (min-width:0px) and (max-width:990){
-	.wrapper{height:3rem;}
     .header-contents{padding: 0px 10px 20px 10px}
 }

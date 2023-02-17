@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
+    
 }
 
 .root {
@@ -88,7 +89,7 @@ iframe {
     background-color: #0F0F0F;
     color: #e7e7e7;
     padding:10px;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .header-hamburger-nav-menu {
