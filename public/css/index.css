@@ -2,9 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
 }
-body {
-    padding-top: 75px;
-}
+
 .root {
     width: 100%;
     display: flex;
@@ -90,7 +88,7 @@ iframe {
     background-color: #0F0F0F;
     color: #e7e7e7;
     padding:10px;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .header-hamburger-nav-menu {
@@ -258,8 +256,17 @@ iframe {
 
 
 
-@media (min-width:0px) and (max-width:750px){
-    .root-header {justify-content: flex-start;}
+@media (min-width:0px) and (max-width:990px){    
+    .root-header {
+        justify-content: flex-start;
+        padding: 30px 20px 10px 20px;
+    }
+    .root-main {
+        padding: 30px 20px 0px 20px;
+    }
+    .root-footer {
+        padding: 30px 20px 0px 20px;
+    }
     .header-hamburger {display: flex;}
     .header-left {width: 100%; justify-content: center;}
     .header-left-nav{display: none;}
