@@ -89,7 +89,7 @@ iframe {
     background-color: #0F0F0F;
     color: #e7e7e7;
     padding:10px;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .header-hamburger-nav-menu {
@@ -103,7 +103,7 @@ iframe {
 }
 
 .header-hamburger-nav-menu li{
-    height: 5.5rem;
+    height: 3.5rem;
     width: 100%;
     display: flex;
     flex-direction: row;
