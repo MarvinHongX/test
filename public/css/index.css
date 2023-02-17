@@ -11,18 +11,18 @@
 }
 
 .root-header {
-    height: 120px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 70px 10px 70px;
+    padding: 30px 50px 10px 50px;
 }
 
 
 .root-main{
     height: calc(100vh + 200px);
-    padding: 50px 70px 0px 70px;
+    padding: 30px 50px 0px 50px;
 }
 
 
@@ -80,7 +80,7 @@ iframe {
 
 
 .header-hamburger-nav {
-    width: 140px;
+    width: 50%;
     position: absolute;
     flex-direction: column;
     justify-content: flex-start;
@@ -88,7 +88,7 @@ iframe {
     background-color: #0F0F0F;
     color: #e7e7e7;
     padding:10px;
-    font-size: 28px;
+    font-size: 3rem;
 }
 
 .header-hamburger-nav-menu {
@@ -102,12 +102,12 @@ iframe {
 }
 
 .header-hamburger-nav-menu li{
-    height: 50px;
+    height: 5.5rem;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;  
+    align-items: flex-start; 
 }
 
 
@@ -246,7 +246,7 @@ iframe {
     color: #000;
 }
 .header-right-icon > i {
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 .header-right-icon:hover {
     cursor: pointer;
@@ -259,13 +259,13 @@ iframe {
 @media (min-width:0px) and (max-width:990px){    
     .root-header {
         justify-content: flex-start;
-        padding: 30px 20px 10px 20px;
+        padding: 10px 20px 10px 20px;
     }
     .root-main {
-        padding: 30px 20px 0px 20px;
+        padding: 10px 20px 0px 20px;
     }
     .root-footer {
-        padding: 30px 20px 0px 20px;
+        padding: 10px 20px 0px 20px;
     }
     .header-hamburger {display: flex;}
     .header-left {width: 100%; justify-content: center;}
