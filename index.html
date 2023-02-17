@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>권더풀 패밀리</title>
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="root">
+        <div class="root-header">
+            
+            <div class="header-hamburger">
+                <span class="header-hamburger-icon" onclick="hamburgerOn()">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M0 6h29v3H0zM0 15h29v3H0zM0 24h29v3H0zM0 0z"></path>
+                    </svg>
+                </span>
+                <div id="hamburger-nav" class="header-hamburger-nav display__none">
+                    <ul class="header-hamburger-nav-menu">
+                        <li id="menuAbout"><a onclick="menuAbout()">ABOUT</a></li>
+                        <li id="menuArtist"><a onclick="menuArtist()">ARTIST</a></li>
+                        <li id="menuContact"><a onclick="menuContact()">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-left"  onclick="hamburgerOff()">
+                <div id="menuHome" class="header-left-home" onclick="menuHome()">
+                    <div class="left-home-wrapper">
+                        <div class="left-home-wrapper-logo"></div>
+                    </div>
+                </div>
+                <div class="header-left-nav" onmouseleave="hamburgerOff()">
+                    <ul class="header-left-nav-menu">
+                        <li id="menuAbout"><a  onclick="menuAbout()">ABOUT</a></li>
+                        <li id="menuArtist"><a  onclick="menuArtist()">ARTIST</a></li>
+                        <li id="menuContact"><a  onclick="menuContact()">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-right-icon"><a href="https://www.instagram.com/kwonderful_family/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="header-right-icon"><a href="https://www.youtube.com/channel/UCrIvLLpkjyasd2A_BxZFduw" target="_blank"><i class="fab fa-youtube"></i></a></div>
+            </div>
+        </div>
+        <div class="root-main" onclick="hamburgerOff()">
+            <iframe id="contentFrame" src="./home.html" scrolling="yes" marginwidth="0" marginheight="0"></iframe>
+        </div>
+        <footer class="root-footer">
+            <div class="root-footer-top">
+                <a class="root-footer-top-map" target="_blank" href="https://naver.me/xpax0Rhz">
+                    <span>
+                    <i class="fa fa-map-marker-alt" ></i>
+                    </span>
+                    <strong>서울특별시 영등포구 선유로247, 3F 1st</strong>
+                </a>
+                <span>
+                    Kakao Channel: 권더풀패밀리
+                </span>
+                <span>
+                    <i class="fa fa-phone"></i>
+                    010-6647-3647
+                </span>
+            </div>
+            <div class="root-footer-bottom">
+                <p class="footer-copyright">©2023. Copyright © Kwonderful Family. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./public/js/index.js"></script>
+</body>
+</html>
