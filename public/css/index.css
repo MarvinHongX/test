@@ -81,7 +81,8 @@ iframe {
 
 
 .header-hamburger-nav {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     flex-direction: column;
     justify-content: flex-start;
@@ -92,6 +93,18 @@ iframe {
     font-size: 2rem;
 }
 
+.header-hamburger-nav-close {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#nav-close {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
 .header-hamburger-nav-menu {
     display: float;
     flex-direction: column;

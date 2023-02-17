@@ -56,3 +56,43 @@
     padding-left: 10px;
 }
 
+.header-contents-contact-btn > a:hover {
+    cursor: pointer;
+    background-color:#efefef;
+}
+
+
+
+.header-right{
+    width: 130px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-right-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.5px solid darkslategray;
+    margin-left: 15px;
+}
+
+.header-right-icon > a {
+    text-decoration: none;
+    color: #000;
+}
+.header-right-icon > i {
+    font-size: 1.5rem;
+}
+.header-right-icon:hover {
+    cursor: pointer;
+    background-color:#efefef;
+}
